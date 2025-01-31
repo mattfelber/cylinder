@@ -1,0 +1,23 @@
+#,gas type,bump time min,cal time min,tests monthly,calibrations monthly,flow rate 0.5 LPM,instruments,liters per calibration,liters per bump
+1,"3 in 1 (O2,LEL,CO)",0.5,2,0,1,0.5,1,1,0.25
+2,"3 in 1 (O2,LEL,H2S)",0.5,2,0,1,0.5,1,1,0.25
+3,"4 in 1 (O2,LEL,CO,H2S)",0.4,1.5,0,1,0.5,1,0.75,0.2
+4,"4 in 1 (O2,LEL,CO,CO2)",0.5,2.15,0,1,0.5,1,1.075,0.25
+5,"5 in 1 (O2,LEL,CO,H2S,CO2)",0.5,2.15,0,1,0.5,1,1.075,0.25
+6,"5 in 1 (O2,LEL,CO,H2S,SO2)",0.75,2.5,0,1,0.5,1,1.25,0.375
+7,Ammonia (NH3),1,3,0,1,0.5,1,1.5,0.5
+8,Carbon Dioxide (CO2),0.5,1.5,0,1,0.5,1,0.75,0.25
+9,Carbon Monoxide (CO),0.4,1.5,0,1,0.5,1,0.75,0.2
+10,Chlorine (Cl2),3,6,0,1,0.5,1,3,1.5
+11,Hydrogen (H2),0.5,1.5,0,1,0.5,1,0.75,0.25
+12,Hydrogen Chloride (HCl),2,10,0,1,0.5,1,5,1
+13,Hydrogen Cyanide (HCN),1,3,0,1,0.5,1,1.5,0.5
+14,Hydrogen Sulfide (H2S),0.4,1.5,0,1,0.5,1,0.75,0.2
+15,Isobutylene,0.5,2.15,0,1,0.5,1,1.075,0.25
+16,Methane 2.5% (CH4),0.5,1.5,0,1,0.5,1,0.75,0.25
+17,Nitric Oxide (NO),0.5,1.5,0,1,0.5,1,0.75,0.25
+18,Nitrogen Dioxide (NO2),1,3,0,1,0.5,1,1.5,0.5
+19,Phosphine (PH3),0.5,2,0,1,0.5,1,1,0.25
+20,Propane,0.5,2,0,1,0.5,1,1,0.25
+21,Sulfur Dioxide (SO2),0.5,1.75,0,1,0.5,1,0.875,0.25
+22,Zero Air,0,1,0,1,0.5,1,0.5,0
