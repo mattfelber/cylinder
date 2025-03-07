@@ -109,6 +109,18 @@ const cylinderData: CylinderData[] = [
   { gasType: "Carbon Dioxide (CO2)", ...formatGasType("Carbon Dioxide (CO2)"), bumpTimeMin: 0.5, calTimeMin: 1.5, flowRate: 0.5 },
   { gasType: "Carbon Monoxide (CO)", ...formatGasType("Carbon Monoxide (CO)"), bumpTimeMin: 0.4, calTimeMin: 1.5, flowRate: 0.5 },
   { gasType: "Chlorine (Cl2)", ...formatGasType("Chlorine (Cl2)"), bumpTimeMin: 3, calTimeMin: 6, flowRate: 0.5 },
+  { gasType: "Hydrogen (H2)", ...formatGasType("Hydrogen (H2)"), bumpTimeMin: 0.5, calTimeMin: 1.5, flowRate: 0.5 },
+  { gasType: "Hydrogen Chloride (HCl)", ...formatGasType("Hydrogen Chloride (HCl)"), bumpTimeMin: 2, calTimeMin: 10, flowRate: 0.5 },
+  { gasType: "Hydrogen Cyanide (HCN)", ...formatGasType("Hydrogen Cyanide (HCN)"), bumpTimeMin: 1, calTimeMin: 3, flowRate: 0.5 },
+  { gasType: "Hydrogen Sulfide (H2S)", ...formatGasType("Hydrogen Sulfide (H2S)"), bumpTimeMin: 0.4, calTimeMin: 1.5, flowRate: 0.5 },
+  { gasType: "Isobutylene", ...formatGasType("Isobutylene"), bumpTimeMin: 0.5, calTimeMin: 2.15, flowRate: 0.5 },
+  { gasType: "Methane 2.5% (CH4)", ...formatGasType("Methane 2.5% (CH4)"), bumpTimeMin: 0.5, calTimeMin: 1.5, flowRate: 0.5 },
+  { gasType: "Nitric Oxide (NO)", ...formatGasType("Nitric Oxide (NO)"), bumpTimeMin: 0.5, calTimeMin: 1.5, flowRate: 0.5 },
+  { gasType: "Nitrogen Dioxide (NO2)", ...formatGasType("Nitrogen Dioxide (NO2)"), bumpTimeMin: 1, calTimeMin: 3, flowRate: 0.5 },
+  { gasType: "Phosphine (PH3)", ...formatGasType("Phosphine (PH3)"), bumpTimeMin: 0.5, calTimeMin: 2, flowRate: 0.5 },
+  { gasType: "Propane", ...formatGasType("Propane"), bumpTimeMin: 0.5, calTimeMin: 2, flowRate: 0.5 },
+  { gasType: "Sulfur Dioxide (SO2)", ...formatGasType("Sulfur Dioxide (SO2)"), bumpTimeMin: 0.5, calTimeMin: 1.75, flowRate: 0.5 },
+  { gasType: "Zero Air", ...formatGasType("Zero Air"), bumpTimeMin: 0, calTimeMin: 1, flowRate: 0.5 }
 ];
 
 function App() {
@@ -160,7 +172,7 @@ function App() {
         <Box sx={{ my: 4 }}>
           <Typography variant="h3" component="h1" gutterBottom align="center" sx={{ mb: 4, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 2 }}>
             <TungstenIcon sx={{ fontSize: 40 }} />
-            Gas Usage Calculator
+            Gas Calculator
           </Typography>
           
           <Paper elevation={3} sx={{ p: 4, borderRadius: 3 }}>
